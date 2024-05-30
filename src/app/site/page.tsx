@@ -20,7 +20,7 @@ export default async function Home() {
         height={1200}
         width={1200}
         className="rounded-tl-2xl rounded-tr-2xl border-2 border-muted"/>
-
+        <div className="bottom-0 top-[50%] bg-gradient-to-t dark:from-background left-0 right-0 absolutez-10"></div>
       </div>
     </section>
 
