@@ -1,5 +1,5 @@
 
-import Navigation from '@/components/site/navigation'
+import Navigation from '@/app/site/navigation'
 import React from 'react'
 
 type Props = {}

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 
 
@@ -20,8 +21,14 @@ export default async function Home() {
         height={1200}
         width={1200}
         className="rounded-tl-2xl rounded-tr-2xl border-2 border-muted"/>
-        <div className="bottom-0 top-[50%] bg-gradient-to-t dark:from-background left-0 right-0 absolutez-10"></div>
+        <div className="bottom-0 top-[50%] bg-gradient-to-t dark:from-background left-0 right-0 absolute z-10"></div>
       </div>
+    </section>
+    <section className="flex justify-center items-center flex-col gap-4 mt-20">
+      <h2 className="text-4xl text-center">Our Pricing Plans</h2>
+      <p className="text-muted-foreground text-center">
+      Try Out Our Free Plan: Because Trying New Things Shouldn't Cost an Arm and a Leg!
+      </p>
     </section>
 
     </>
